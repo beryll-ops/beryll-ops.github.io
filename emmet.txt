@@ -1,0 +1,1 @@
+div.exo-$*40>input[type=checkbox id=exo-$ name=exo-$]+label[for=exo-$]{$}
