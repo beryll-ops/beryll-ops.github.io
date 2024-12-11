@@ -126,6 +126,7 @@ table {
 /*----------------------------------------------------------------------------------*/
 
 .background {
+	padding-left: 100px;
 	background-color: bisque;
 	width: 100vw;
 	height: 100vh;
@@ -149,4 +150,3 @@ fieldset {
 .lilbox {
 	text-align: center;
 }
-
