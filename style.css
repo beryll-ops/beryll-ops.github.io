@@ -124,10 +124,18 @@ table {
 }
 
 /*----------------------------------------------------------------------------------*/
-
+body {
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-y: scroll; 
+  }
+  
+body::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
 .background {
 	padding-left: 100px;
-	background-color: bisque;
+	background-color: lemonchiffon;
 	width: 100vw;
 	height: 100vh;
 }
@@ -148,5 +156,6 @@ fieldset {
 	margin: 11px;
 }
 .lilbox {
+	width: 12.5%;
 	text-align: center;
 }
