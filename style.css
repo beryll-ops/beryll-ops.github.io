@@ -156,6 +156,8 @@ fieldset {
 	margin: 11px;
 }
 .lilbox {
+	display: flex;
+	flex-direction: column;
 	width: 12.5%;
 	text-align: center;
 }
